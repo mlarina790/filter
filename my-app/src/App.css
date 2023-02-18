@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.container__imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  
+  padding: 7px 16px;
+  font-size: 17px;
+  word-spacing: -3px;
+  color: #555555;
+  background-color: #fff;
+  border: 1px solid #555;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3E3E3E;
+}
+
+.active {
+  color: #fff;
+  background-color: #555;
+}
+
+.project__img {
+  transition: all 350ms ease0;
+  cursor: pointer;
+  margin: 5px;
+}
